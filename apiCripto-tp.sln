@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiCripto-tp", "apiCripto-tp\apiCripto-tp.csproj", "{C8968657-DA2A-4BC6-9331-D60EF012915F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8968657-DA2A-4BC6-9331-D60EF012915F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8968657-DA2A-4BC6-9331-D60EF012915F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8968657-DA2A-4BC6-9331-D60EF012915F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8968657-DA2A-4BC6-9331-D60EF012915F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {137B256A-92D6-4981-8D3D-A19C87494297}
+	EndGlobalSection
+EndGlobal
