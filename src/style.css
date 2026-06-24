@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0f1115;
+  color: #e6e6e6;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: #4dabf7;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.card {
+  background: #181b21;
+  border: 1px solid #262a32;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  background: #161922;
+  border-bottom: 1px solid #262a32;
+}
+
+.navbar a, .navbar button {
+  color: #e6e6e6;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.btn {
+  background: #4dabf7;
+  color: #0f1115;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #74c0fc;
+}
+
+.btn-sell {
+  background: #ff8787;
+}
+.btn-sell:hover {
+  background: #ffa8a8;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #4dabf7;
+  color: #4dabf7;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #2c313a;
+  background: #0f1115;
+  color: #e6e6e6;
+}
+
+label {
+  font-size: 13px;
+  color: #9aa3ad;
+  display: block;
+  margin-bottom: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #262a32;
+  font-size: 14px;
+}
+
+th {
+  color: #9aa3ad;
+  font-weight: 600;
+}
+
+.positive { color: #51cf66; }
+.negative { color: #ff6b6b; }
+
+.error {
+  background: #2c1517;
+  border: 1px solid #ff6b6b;
+  color: #ffa8a8;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: #181b21;
+  border: 1px solid #262a32;
+  color: #9aa3ad;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  border-color: #4dabf7;
+  color: #4dabf7;
+}
